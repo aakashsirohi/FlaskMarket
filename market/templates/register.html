@@ -6,24 +6,24 @@
 {% block content %}
 <body class="text-center">
     <div class="container">
-        <form method="POST" class="form-register" style="color:white">
+        <form method="POST" class="form-register center" style="color:white">
             {{ form.hidden_tag() }}
-            <img class="mb-4" src="https://res.cloudinary.com/jimshapedcoding/image/upload/v1597332609/android-icon-192x192_ove2a7.png" alt="">
+            <img class="mb-4" src="../static/images/marketplace_collaboration.png" alt="" width= 300 px height = 300 px>
             <h1 class="h3 mb-3 font-weight-normal">
                 Please Create your Account
             </h1>
             <br>
             {{ form.username.label() }}
-            {{ form.username(class="form-control", placeholder="User Name") }}
+            {{ form.username(class="form-control custom-width", placeholder="User Name") }}
 
             {{ form.email_address.label() }}
-            {{ form.email_address(class="form-control", placeholder="Email Address") }}
+            {{ form.email_address(class="form-control custom-width", placeholder="Email Address") }}
 
             {{ form.password1.label() }}
-            {{ form.password1(class="form-control", placeholder="Password") }}
+            {{ form.password1(class="form-control custom-width", placeholder="Password") }}
 
             {{ form.password2.label() }}
-            {{ form.password2(class="form-control", placeholder="Confirm Password") }}
+            {{ form.password2(class="form-control custom-width", placeholder="Confirm Password") }}
 
             <br>
 
