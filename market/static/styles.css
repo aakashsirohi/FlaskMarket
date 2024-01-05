@@ -1,0 +1,25 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.custom-width {
+    width: 300px;
+}
+
+.custom-button {
+    background-color: rgb(210, 218, 210);
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.custom-button:hover {
+    background-color: rgb(93, 126, 115);
+}
